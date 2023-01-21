@@ -1,0 +1,15 @@
+
+
+@media only screen and (max-width:992px) {
+    .clock-container {
+        justify-content: center;
+    }
+
+    .clock-data h1 {
+        font-size: 1.1rem !important;
+    }
+
+    .clock-data h5{
+        font-size: 0.9rem !important;
+    }
+}

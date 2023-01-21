@@ -1,0 +1,43 @@
+.footer-quick_links a{
+    text-decoration: none;
+    color: #222;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background:   rgb(241, 239, 235);
+}
+
+.footer-text {
+    line-height: 30px;
+    color: #222;
+}
+
+.footer-quick_links ul li {
+    background: transparent !important;
+}
+
+
+.footer-quick_links ul li a  {
+    color: #222;
+}
+
+.quick-link_titles {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-contact li span {
+    font-size: 1.2rem;
+}
+
+.footer-contact li p {
+    font-size: 0.9rem;
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    margin-top: 50px;
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+.hero-section {
+    background-color: var(--hero-bg);
+}
+
+.hero-section h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.hero-section p {
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.hero-img {
+    width: 550px;
+    height: 650px;
+    
+}
+
+.hero-section p:nth-child(1) {
+    font-weight: 500;
+}
+
+.shop-btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.shop-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.shop-btn a:hover {
+    color: white;
+}
+
+.hero-section {
+    padding-top: 45px;
+}
+
+.timer-count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer-count img {
+    width: 90% !important;
+    height: 70% !important;
+    object-fit: contain;
+    
+}
+
+.store-btn {
+    border: 1px solid white;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.popular-category {
+    background: rgb(212, 232, 241);
+    border-top-right-radius: 100px;
+}
+
+@media only screen and (max-width:1100px) {
+    .hero-img {
+        width: 450px;
+        height: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .hero-img {
+        width: 390px;
+        height: 100%;
+    }
+    .hero-content h2{
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .clock-timer {
+        text-align: center;
+    }
+
+    .clock-timer h4 {
+        font-size: .9rem !important;
+    }
+
+    .clock-timer h3 {
+        font-size: 1rem !important;
+    }
+
+    .counter-img {
+        display: none;
+    }
+
+    .count-down_col {
+        text-align: center;
+    }
+
+    
+}
+    
+@media only screen and (max-width:768px)  {
+     .hero-img {
+        width: 350px;
+        height: 450px;
+    }
+
+    .hero-content h2{
+        font-size: 1.6rem;
+    }
+
+    .hero-content p {
+        font-size: .9rem;
+    }
+
+    .shop-btn {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .counter-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+     .hero-img {
+        width: 350px;
+        height: 100%;
+    }
+    .hero-content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .hero-img {
+        width: 330px;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 280px)  {
+    .hero-img {
+        width: 250px;
+        height: 100%;
+    }
+}

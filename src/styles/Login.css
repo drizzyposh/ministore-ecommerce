@@ -1,0 +1,38 @@
+.shop-btn2  {
+    color:white;
+}
+
+.auth-form {
+    background: var(--primary-color);
+    padding:40px;
+    border-radius:5px;
+}
+
+p a {
+    color:rgb(196, 193, 193);
+    text-decoration:none;
+    font-weight:600;
+}
+
+p a:hover {
+    color:white;
+}
+
+.auth-btn {
+    background:white !important;
+    color:var(--primary-color);
+    font-weight:600;
+}
+
+.auth-form p {
+    margin-top: 30px;
+}
+/* 
+.auth-form p a {
+    color: rgba(255,255,255,0.735);
+} */
+
+.auth-form input[type='file']{
+    color:white;
+    cursor:pointer;
+}
