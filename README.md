@@ -2,7 +2,7 @@
 
 ## Overview
 
-A minishop full stack E-commerce site built with React, Firebase(for backend), Framer motion for animation effect, and Custon hooks. The datas of each users are stored in firestore database.
+A minishop E-commerce that shows different varieties of products to buy. Website built with React, Firebase(for backend), Framer motion for animation effect, and Custon hooks. The datas of each users are stored in firestore database.
 
 
 ### Features
